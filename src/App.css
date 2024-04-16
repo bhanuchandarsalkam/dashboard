@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Ruda:wght@400;500;600;700;800;900&display=swap');
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.navsection{
+  /* border:1px solid red; */
+  height:100px;
+  display:flex;
+  justify-content:space-between;
+  background-color:#2B4162;
+  align-items:center;
+  color:white;
+  padding:0 20px;
+  font-size:large;
+}
+.sidebarsection{
+  width:100%;
+  max-width:15%;
+  height:95vh;
+  padding-top:10px;
+  background-color:#385F71;
+  color:white;
+}
+.sidebarsection ul li{
+  list-style:none;
+  margin-bottom:20px;
+  font-weight:800;
+  font-size:medium;
+  cursor:pointer;
+}
+.loginsection{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.registersection{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.collectionsection{
+  display:flex;
+}
+.authform{
+  width:100%;
+  max-width:50%;
+  margin-top:-200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border:1px solid gray;
+  border-radius:10px;
+  -webkit-box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+}
+.authform input{
+  width:100%;
+  max-width:55%;
+  height:1.4rem;
+}
+.authform label{
+  width:100%;
+  max-width:55%;
+  font-weight:600;
+}
+.firmsection{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableform{
+  width:100%;
+  max-width:50%;
+  margin-top:-80px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border:1px solid gray;
+  border-radius:10px;
+  -webkit-box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 35px -4px rgba(0,0,0,0.75);
+}
+.tableform input{
+  width:100%;
+  max-width:85%;
+  height:40px;
+  margin-bottom:10px;
+}
+.tableform label{
+  width:100%;
+  max-width:85%;
+  font-weight:600;
+}
+.checkInp{
+  width:100%;
+  max-width:85%;
+}
+ .checkInp label{
+  width:20%;
+}
+.inputcontainer{
+  width:100%;
+  display:flex;
+}
+/* .checkboxcontainer{
+  width:100%;
+  max-width:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.checkboxcontainer label{
+  width:100%;
+}
+.checkboxcontainer input{
+  margin-left:-250px;
+} */
+.checkboxcontainer{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.regioncontainer{
+  display:flex;
+}
+.regionboxcontainer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+}
+.regionboxcontainer label{
+  width:350%;
+}
+.regionboxcontainer input{
+ margin-right:12px;
+}
+.table-name{
+  width:80vw;
+  border-collapse:collapse;
+   margin-top:40px;
+   margin-left:40px;
+}
+.table-name th,.table-name td{
+  border:1px solid gray;
+  padding:20px;
+}
+.table-name th{
+  text-align:left;
+  background-color:gray;
+}
+.errorsection{
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+h3{
+  color:#D7B377;
+}
+.btnsubmit button{
+  background-color: blue;
+  width:4rem;
+  padding:10px 0px;
+border-radius:10px;
+margin-bottom:10px;
+color:white
+}
+@media screen and (min-width:320px) and (max-width:768px){
+  .navsection{
+    width:100%;
+    height:70px;
+    padding:0 10px;
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+  }
+  .company,.firmname,.userAuth{
+    font-size: 10px;
+  }
+  .sidebarsection{
+    max-width:30%;
+    margin-top:70px;
+    position:fixed;
+  }
+  .sidebarsection ul li{
+    font-size:10px;
+    margin-left:-20px;
+  }
+  .firmsection{
+    margin:0px 15px;
+  }
+  .tableform{
+   max-width:65%;
+   margin-bottom:20px;
+   margin-top:600px;
+   margin-left:110px;
+   margin-right:15px;
+   position:fixed;
+  }
+  .tableform label{
+    font-size:10px;
+  }
+  .tableform input{
+    height:15px;
+    margin-bottom: 5px;
+  }
+  .table-name{
+    width:5px;
+    margin: 10px 100px;
+    margin-top:80px;
+    position:fixed;
+  }
+  .table-name th,.table-name td{
+    border:1px solid gray;
+    width:5px;
+    padding:5px;
+    font-size:9px;
+  }
+  .table-name th{
+    padding:5px 3px;
+  }
+  .table-name td img{
+    width:30px;
+    height:30px;
+  }
+  .table-name td button{
+    width:40px;
+    height:20px;
+    font-size:10px;
+  }
+  .loginsection{
+    margin-top:300px;
+    margin-left:100px;
+    width:70%;
+    position:fixed;
+  }
+  .authform{
+    max-width:90%;
+  }
+  .authform label{
+    font-size: 15px;
+  }
+  .registersection{
+    margin-top:300px;
+    margin-left:100px;
+    width:70%;
+    position:fixed;
+  }
+  .regioncontainer{
+    width:50%;
+  }
+  .regionboxcontainer label,.checkboxcontainer label{
+    font-size:7px;
+  }
+}
